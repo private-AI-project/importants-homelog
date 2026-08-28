@@ -1,0 +1,76 @@
+baseURL: https://home.importants-studio.com/
+languageCode: ko-kr
+defaultContentLanguage: ko
+title: 홈로그
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: 홈로그
+  description: 신혼부터 육아까지, 우리 집에 필요한 정보를 기록합니다. 신혼부부 대출·특공, 출산·육아 지원금, 살림 가이드를 공식 자료 근거로 정리합니다.
+  keywords: [신혼부부, 육아, 부모급여, 신혼부부대출, 출산지원금, 육아휴직]
+  defaultTheme: auto
+  assets:
+    favicon: /favicon.svg
+    apple_touch_icon: /favicon.svg
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: false
+  ShowToc: true
+  TocOpen: false
+  ShowShareButtons: false
+  disableSpecial1stPost: true
+  hideSummary: false
+
+  homeInfoParams:
+    Title: 홈로그
+    Content: 둘이 시작한 집이 셋이 되기까지. 신혼부부 대출부터 출산·육아 지원금, 살림 가이드까지 우리 집에 필요한 정보를 공식 자료 근거로 기록합니다.
+
+menu:
+  main:
+    - identifier: posts
+      name: 전체 글
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 30
+    - identifier: about
+      name: 소개
+      url: /about/
+      weight: 40
+    - identifier: privacy
+      name: 개인정보처리방침
+      url: /privacy/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
