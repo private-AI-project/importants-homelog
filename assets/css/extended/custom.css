@@ -452,3 +452,49 @@ ul.post-tags li a:hover,
 
 .share-btn.kakao { background: #FEE500; color: #191600; border-color: #FEE500; }
 .share-btn.x { background: #111; color: #fff; border-color: #111; }
+
+/* Tables */
+:root {
+    --table-border: #e3d0d7;
+    --table-head-bg: #faf0f3;
+    --table-row-alt: #fdf7f9;
+}
+:root[data-theme=dark] {
+    --table-border: #46404a;
+    --table-head-bg: #2f2a2e;
+    --table-row-alt: #262227;
+}
+
+.post-content table {
+    display: table;
+    width: 100%;
+    margin: 24px 0;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.post-content table th,
+.post-content table td {
+    padding: 11px 14px;
+    border: 1px solid var(--table-border);
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+}
+
+.post-content table th {
+    background: var(--table-head-bg);
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.post-content table tbody tr:nth-child(even) td {
+    background: var(--table-row-alt);
+}
+
+@media (max-width: 640px) {
+    .post-content table { font-size: 13.5px; }
+    .post-content table th,
+    .post-content table td { padding: 8px 9px; }
+}
