@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}<div class="post-description">{{ .Description }}</div>{{ end }}
+    <div class="post-meta">기준: 2026년 1월 고용24 안내 · 간이 모의계산</div>
+  </header>
+  <div class="post-content">
+    <p>통상임금과 단축 전후 근로시간만 넣으면 예상 월 급여 보전액을 알려드립니다. 입력값은 서버로 전송되지 않고 브라우저 안에서만 계산됩니다.</p>
+
+    <form id="reduced-hours-form" class="calc-form">
+      <div class="calc-field">
+        <label for="wage">통상임금 <span>(월, 만원)</span></label>
+        <input type="number" id="wage" name="wage" min="0" step="1" placeholder="예: 300" required>
+        <p class="calc-hint">기본급·정기수당 등 소정근로시간에 대해 정기적·일률적으로 지급되는 시간급 임금의 월 환산액입니다.</p>
+      </div>
+
+      <div class="calc-field">
+        <label for="before">단축 전 주당 소정근로시간 <span>(시간)</span></label>
+        <input type="number" id="before" name="before" min="1" step="1" placeholder="예: 40" required>
+      </div>
+
+      <div class="calc-field">
+        <label for="after">단축 후 주당 근로시간 <span>(시간)</span></label>
+        <input type="number" id="after" name="after" min="1" step="1" placeholder="예: 20" required>
+        <p class="calc-hint">제도상 단축 후 근로시간은 주 15~35시간이어야 합니다.</p>
+      </div>
+
+      <button type="submit" class="calc-submit">예상 급여 계산하기</button>
+    </form>
+
+    <div id="calc-result" class="calc-result" hidden></div>
+
+    {{ .Content }}
+  </div>
+</article>
+<script src="/js/reduced-work-hours-calc.js" defer></script>
+{{ end }}
