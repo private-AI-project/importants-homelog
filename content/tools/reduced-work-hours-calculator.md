@@ -10,7 +10,8 @@ layout: "calculator"
 sourceUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000397&systClId=SC00000252"
 cover:
   image: "/images/reduced-work-hours-calculator.jpg"
-  alt: "육아기 근로시간 단축 급여 예상 계산기"
+  alt: "노트북으로 일하는 부모와 옆에서 노는 아이"
+  caption: "사진: Ksenia Chernaya / Pexels"
 ---
 
 ## 계산 기준
