@@ -5,8 +5,15 @@
 // 30일(다태아 45일)만 지원한다. 그런데 우선지원대상기업이면 정부가 전 기간을
 // 대신 낸다. 그래서 회사 규모를 입력으로 받는다.
 //
-// 통상임금이 월 상한을 넘으면 그 차액은 회사가 채운다. 어느 쪽이든 받는 총액은
-// 통상임금 100% 다. 이 계산기는 그 총액을 정부 몫과 회사 몫으로 갈라 보여준다.
+// 차액 보전이 어디까지 붙는지가 이 계산의 핵심이다. 근로기준법 제74조 제4항은
+// 최초 60일(다태아 75일)만 유급휴가로 정하고, 사업주는 통상임금 상당액이 지급된
+// 범위에서 지급 책임을 면한다. 그래서 유급 구간에서만 회사가 차액을 채운다.
+// 나머지 30일(다태아 45일)은 급여 책임 규정이 없는 무급 구간이라 고용보험 상한이
+// 곧 전부다.
+//
+// 처음에는 총액을 통상임금 90일분으로 잡고 정부 지급액을 뺀 나머지를 회사 몫으로
+// 돌렸다. 그러면 무급 구간의 차액까지 회사에 얹혀서, 통상임금 300만원일 때 회사
+// 240만원 · 총 900만원이 나왔다. 실제로는 회사 160만원 · 총 820만원이다.
 //
 // 상수는 아래 한 곳에 모았다. 상한액이 바뀌면 여기만 고치면 된다.
 
@@ -43,32 +50,42 @@
     var monthly = input.wage;
     var daily = monthly / DAYS_PER_MONTH;
 
-    // 우선지원대상기업이면 정부가 전 기간을 낸다. 대규모기업이면 최초 구간은
-    // 회사 몫이고 정부는 나머지만 낸다.
-    var isSmall = input.company === "small";
-    var govDays = isSmall ? b.total : (b.total - b.firstPaid);
-    var firmOnlyDays = b.total - govDays;
-
     var perDay = Math.min(daily, DAILY_CAP);
-    var gov = Math.floor(perDay * govDays);
+    var isSmall = input.company === "small";
 
-    // 받는 총액은 통상임금 100% 다. 정부가 낸 나머지는 회사가 채운다.
-    var total = Math.floor(daily * b.total);
-    var firm = Math.max(0, total - gov);
+    var paidDays = b.firstPaid;                  // 유급 구간
+    var unpaidDays = b.total - b.firstPaid;      // 무급 구간
+
+    // 유급 구간은 통상임금 100% 가 보장된다. 우선지원대상기업이면 고용보험이
+    // 상한까지 내고 남는 차액을 회사가 채운다. 대규모기업은 이 구간에 고용보험
+    // 지원이 없어 회사가 전액 낸다.
+    var paidTotal = daily * paidDays;
+    var govPaid = isSmall ? perDay * paidDays : 0;
+    var firm = Math.max(0, paidTotal - govPaid);
+
+    // 무급 구간은 고용보험 상한까지가 전부다. 회사가 채울 의무가 없다.
+    var govUnpaid = perDay * unpaidDays;
+
+    var gov = Math.floor(govPaid + govUnpaid);
+    firm = Math.floor(firm);
 
     return {
       birth: b,
       monthly: monthly,
       daily: daily,
       isSmall: isSmall,
-      govDays: govDays,
-      firmOnlyDays: firmOnlyDays,
+      paidDays: paidDays,
+      unpaidDays: unpaidDays,
+      govPaid: Math.floor(govPaid),
+      govUnpaid: Math.floor(govUnpaid),
       gov: gov,
       firm: firm,
-      total: total,
+      total: gov + firm,
       capped: daily > DAILY_CAP,
-      // 통상임금이 상한 이상일 때 정부가 낼 수 있는 최대치
-      govMax: Math.floor(DAILY_CAP * govDays),
+      // 상한에 걸리면 무급 구간에서 통상임금보다 덜 받는다. 그 부족분이다.
+      shortfall: Math.floor(Math.max(0, (daily - perDay) * unpaidDays)),
+      // 통상임금 전 기간분. 무급 구간 때문에 실제 수령이 이보다 적을 수 있다.
+      fullWage: Math.floor(daily * b.total),
     };
   }
 
@@ -85,31 +102,41 @@
     html += '<p class="calc-amount">' + won(r.gov) + "</p>";
     html += '<p class="calc-sub">고용보험이 지급하는 금액</p>';
 
+    // 구간으로 나눠 보여준다. 사람들이 틀리는 것이 금액이 아니라 "어느 구간까지
+    // 통상임금이 보장되는지" 라서, 표의 첫 칸이 구간이어야 한다.
     html += '<div class="calc-table-wrap"><table class="calc-table"><thead><tr>' +
-            "<th>주는 곳</th><th>기간</th><th>금액</th></tr></thead><tbody>";
-    html += "<tr><td>고용보험(정부)</td><td>" + r.govDays + "일</td><td>" + won(r.gov) + "</td></tr>";
-    if (r.firmOnlyDays > 0 || r.firm > 0) {
-      html += "<tr><td>회사</td><td>" +
-              (r.firmOnlyDays > 0 ? "최초 " + r.firmOnlyDays + "일" : "상한 초과분 보전") +
-              "</td><td>" + won(r.firm) + "</td></tr>";
+            "<th>구간</th><th>주는 곳</th><th>금액</th></tr></thead><tbody>";
+    if (r.govPaid > 0) {
+      html += "<tr><td>최초 " + r.paidDays + "일 (유급)</td><td>고용보험</td><td>" +
+              won(r.govPaid) + "</td></tr>";
     }
+    if (r.firm > 0) {
+      html += "<tr><td>최초 " + r.paidDays + "일 (유급)</td><td>회사" +
+              (r.isSmall ? " 보전" : "") + "</td><td>" + won(r.firm) + "</td></tr>";
+    }
+    html += "<tr><td>나머지 " + r.unpaidDays + "일 (무급)</td><td>고용보험</td><td>" +
+            won(r.govUnpaid) + "</td></tr>";
     html += '<tr class="on"><td>합계</td><td>' + r.birth.total + "일</td><td>" +
             won(r.total) + "</td></tr>";
     html += "</tbody></table></div>";
 
     html += '<ul class="calc-notes">';
-    html += "<li>휴가 기간 " + r.birth.total + "일 동안 <strong>통상임금 100%</strong>를 받습니다. 위 표는 그 돈을 누가 내는지 가른 것입니다</li>";
+    html += "<li>최초 " + r.paidDays + "일은 근로기준법상 <strong>유급</strong>이라 통상임금 100%가 보장됩니다</li>";
+    html += "<li>나머지 " + r.unpaidDays + "일은 급여 책임 규정이 없는 <strong>무급 구간</strong>입니다. 고용보험이 주는 금액까지가 전부고 회사가 채울 의무가 없습니다</li>";
     if (r.isSmall) {
-      html += "<li>우선지원대상기업(중소기업 등)이라 정부가 전 기간을 지급합니다</li>";
+      html += "<li>우선지원대상기업(중소기업 등)이라 고용보험이 전 기간을 지급합니다</li>";
     } else {
-      html += "<li>대규모기업은 최초 " + r.firmOnlyDays + "일이 회사 몫이고 정부는 남은 " +
-              r.govDays + "일만 지급합니다</li>";
+      html += "<li>대규모기업은 최초 " + r.paidDays + "일에 고용보험 지원이 없어 회사가 전액 지급하고, 고용보험은 남은 " +
+              r.unpaidDays + "일만 지급합니다</li>";
     }
     if (r.capped) {
-      html += "<li>통상임금이 월 상한 " + won(MONTHLY_CAP) + "을 넘어서, 정부 지급액이 " +
-              won(r.govMax) + "에서 멈춥니다. 차액 " + won(r.firm) + "은 회사가 채웁니다</li>";
+      html += "<li>통상임금이 월 상한 " + won(MONTHLY_CAP) + "을 넘습니다. 유급 구간의 차액 " +
+              won(r.firm) + "은 회사가 채우지만, 무급 구간은 상한까지만 나옵니다</li>";
+      html += "<li>그래서 통상임금 " + r.birth.total + "일분인 " + won(r.fullWage) +
+              "보다 <strong>" + won(r.shortfall) + " 적은</strong> " + won(r.total) + "을 받습니다</li>";
     } else {
-      html += "<li>통상임금이 월 상한 " + won(MONTHLY_CAP) + " 안이라 상한에 걸리지 않습니다</li>";
+      html += "<li>통상임금이 월 상한 " + won(MONTHLY_CAP) + " 안이라 상한에 걸리지 않습니다. " +
+              r.birth.total + "일 전체가 통상임금 100%로 채워집니다</li>";
     }
     if (r.monthly < 1000000) {
       // 하한액은 시간급 최저임금으로 산정되는데 그 값이 근거 글에 없다.
