@@ -5,6 +5,7 @@ title: 홈로그
 theme: PaperMod
 
 enableRobotsTXT: true
+enableGitInfo: true
 
 services:
   googleAnalytics:
@@ -20,14 +21,22 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputFormats:
+  LLMS:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+    - LLMS
 
 params:
   env: production
+  author: Importants Studio
   title: 홈로그
   description: 신혼부터 육아까지, 우리 집에 필요한 정보를 기록합니다. 신혼부부 대출·특공, 출산·육아 지원금, 살림 가이드를 공식 자료 근거로 정리합니다.
   keywords: [신혼부부, 육아, 부모급여, 신혼부부대출, 출산지원금, 육아휴직]
