@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}<div class="post-description">{{ .Description }}</div>{{ end }}
+    <div class="post-meta">기준: 2026년 상한액 월 220만원 · 근로기준법 제74조 · 간이 모의계산</div>
+  </header>
+  <div class="post-content">
+    <p>통상임금과 회사 규모만 넣으면 고용보험이 주는 금액과 회사가 주는 금액을 갈라서 보여드립니다. 휴가 기간 전체를 정부가 주는 게 아니라 구간이 나뉩니다. 입력값은 서버로 전송되지 않고 브라우저 안에서만 계산됩니다.</p>
+
+    <form id="maternity-form" class="calc-form">
+      <div class="calc-field">
+        <label for="wage">월 통상임금 <span>(원)</span></label>
+        <input type="text" id="wage" name="wage" inputmode="numeric" placeholder="예: 3000000" required>
+        <p class="calc-hint">기본급에 정기적으로 받는 수당을 더한 금액입니다. 성과급이나 연장근로수당은 빠집니다. 3,000,000 처럼 쉼표를 넣어도 됩니다.</p>
+      </div>
+
+      <div class="calc-field">
+        <label for="birth">출산 유형</label>
+        <select id="birth" name="birth">
+          <option value="single">일반 (90일)</option>
+          <option value="preterm">미숙아 출산 (100일)</option>
+          <option value="twins">다태아, 쌍둥이 이상 (120일)</option>
+        </select>
+      </div>
+
+      <div class="calc-field">
+        <label for="company">회사 규모</label>
+        <select id="company" name="company">
+          <option value="small">우선지원대상기업 (중소기업 등)</option>
+          <option value="large">대규모기업</option>
+        </select>
+        <p class="calc-hint">우선지원대상기업이면 정부가 전 기간을 지급합니다. 대규모기업이면 최초 60일(다태아 75일)은 회사 몫입니다. 어느 쪽인지는 인사팀에 물어보시면 됩니다.</p>
+      </div>
+
+      <button type="submit" class="calc-submit">지급액 계산하기</button>
+    </form>
+
+    <div id="calc-result" class="calc-result" hidden></div>
+
+    {{ .Content }}
+  </div>
+
+  {{/* 도구는 전용 레이아웃이라 single.html 을 타지 않는다. FAQ 파샬을 여기서
+       직접 불러야 문답과 FAQPage 스키마가 나간다. */}}
+  {{- partial "extend_post_content.html" . }}
+</article>
+<script src="/js/maternity-leave-calc.js" defer></script>
+{{ end }}
