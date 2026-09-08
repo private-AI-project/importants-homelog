@@ -47,8 +47,8 @@ params:
   keywords: [신혼부부, 육아, 부모급여, 신혼부부대출, 출산지원금, 육아휴직]
   defaultTheme: auto
   assets:
-    favicon: /favicon.svg
-    apple_touch_icon: /favicon.svg
+    favicon: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
