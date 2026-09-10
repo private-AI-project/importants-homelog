@@ -180,7 +180,7 @@
         var mode = btn.getAttribute("data-share");
         if (mode === "native") {
           if (navigator.share) {
-            navigator.share({ title: "6+6 부모육아휴직 급여 계산기", text: shareText, url: url }).catch(function () {});
+            navigator.share({ title: "육아휴직 급여 계산기 (부모 함께 6+6)", text: shareText, url: url }).catch(function () {});
           } else {
             copyTo(btn, shareText + "\n" + url, "복사됨 (카톡에 붙여넣기)");
           }
