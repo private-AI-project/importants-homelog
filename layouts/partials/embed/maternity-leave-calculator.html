@@ -1,0 +1,29 @@
+    <form id="maternity-form" class="calc-form">
+      <div class="calc-field">
+        <label for="wage">월 통상임금 <span>(원)</span></label>
+        <input type="text" id="wage" name="wage" inputmode="numeric" placeholder="예: 3000000" required>
+        <p class="calc-hint">기본급에 정기적으로 받는 수당을 더한 금액입니다. 성과급이나 연장근로수당은 빠집니다. 3,000,000 처럼 쉼표를 넣어도 됩니다.</p>
+      </div>
+
+      <div class="calc-field">
+        <label for="birth">출산 유형</label>
+        <select id="birth" name="birth">
+          <option value="single">일반 (90일)</option>
+          <option value="preterm">미숙아 출산 (100일)</option>
+          <option value="twins">다태아, 쌍둥이 이상 (120일)</option>
+        </select>
+      </div>
+
+      <div class="calc-field">
+        <label for="company">회사 규모</label>
+        <select id="company" name="company">
+          <option value="small">우선지원대상기업 (중소기업 등)</option>
+          <option value="large">대규모기업</option>
+        </select>
+        <p class="calc-hint">우선지원대상기업이면 정부가 전 기간을 지급합니다. 대규모기업이면 최초 60일(다태아 75일)은 회사 몫입니다. 어느 쪽인지는 인사팀에 물어보시면 됩니다.</p>
+      </div>
+
+      <button type="submit" class="calc-submit">지급액 계산하기</button>
+    </form>
+
+    <div id="calc-result" class="calc-result" hidden></div>
