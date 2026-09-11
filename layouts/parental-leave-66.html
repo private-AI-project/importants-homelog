@@ -8,40 +8,9 @@
   <div class="post-content">
     <p>부모 두 사람의 통상임금과 사용 개월 수를 넣으면 월별 지급액과 총액을 계산합니다. 특례가 붙는 개월 수는 <strong>짧게 쓰는 쪽</strong>이 정하는데, 이 손해를 숫자로 보여드립니다. 입력한 값은 서버로 보내지 않고 브라우저 안에서만 계산됩니다.</p>
 
-    <form id="parental-66-form" class="calc-form">
-      <div class="calc-field">
-        <label for="wageA">부모 A 월 통상임금 <span>(원)</span></label>
-        <input type="text" id="wageA" name="wageA" inputmode="numeric" placeholder="예: 3500000" required>
-        <p class="calc-hint">기본급에 정기적으로 받는 수당을 더한 금액입니다. 성과급과 연장근로수당은 빠집니다.</p>
-      </div>
+    {{ partial "embed/parental-leave-66.html" . }}
 
-      <div class="calc-field">
-        <label for="monthsA">부모 A 육아휴직 개월 수</label>
-        <input type="number" id="monthsA" name="monthsA" min="1" max="12" step="1" value="6" required>
-      </div>
-
-      <div class="calc-field">
-        <label><input type="checkbox" id="both" name="both" checked> 배우자도 육아휴직을 씁니다</label>
-        <p class="calc-hint">자녀가 생후 18개월 이내이고 부모가 모두 쓰면 6+6 특례가 붙습니다. 동시에 쓰지 않고 순차로 써도 됩니다.</p>
-      </div>
-
-      <div id="parent-b-fields">
-        <div class="calc-field">
-          <label for="wageB">부모 B 월 통상임금 <span>(원)</span></label>
-          <input type="text" id="wageB" name="wageB" inputmode="numeric" placeholder="예: 4200000">
-        </div>
-
-        <div class="calc-field">
-          <label for="monthsB">부모 B 육아휴직 개월 수</label>
-          <input type="number" id="monthsB" name="monthsB" min="1" max="12" step="1" value="6">
-          <p class="calc-hint">여기가 중요합니다. 두 사람 중 <strong>짧은 쪽</strong>이 특례 개월 수를 정합니다. 한 명이 1개월만 쓰면 두 사람 다 1개월분만 특례를 받습니다.</p>
-        </div>
-      </div>
-
-      <button type="submit" class="calc-submit">급여 계산하기</button>
-    </form>
-
-    <div id="calc-result" class="calc-result" hidden></div>
+    {{ partial "embed_code.html" . }}
 
     {{ .Content }}
   </div>
