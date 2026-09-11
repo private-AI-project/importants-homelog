@@ -165,6 +165,7 @@
 
     box.innerHTML = html;
     box.hidden = false;
+    if (window.gtag) gtag("event", "tool_result", { tool_path: location.pathname });
 
     var url = "https://home.importants-studio.com/tools/maternity-leave-calculator/";
     var shareText = "출산전후휴가 " + r.birth.total + "일 동안 고용보험에서 " + won(r.gov) +

@@ -171,6 +171,7 @@
 
     box.innerHTML = html;
     box.hidden = false;
+    if (window.gtag) gtag("event", "tool_result", { tool_path: location.pathname });
 
     var url = "https://home.importants-studio.com/tools/parental-leave-66/";
     var shareText = "부모가 함께 육아휴직을 쓰면 " + won(r.total) + " 정도라고 합니다 (홈로그 계산기)";
