@@ -10,7 +10,6 @@ sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=629&ccfNo
 cover:
   image: "/images/newlywed-lease-contract-checklist-1.jpg"
   alt: "임대차 계약서에 서명하는 커플"
-  caption: "사진: Anastasia Shuraeva / Pexels"
 ---
 
 
@@ -35,7 +34,6 @@ cover:
 신고는 부동산거래관리시스템(RTMS)에서 직접 할 수도 있지만 뒤에서 설명할 정부24 전입신고와 한 번에 처리하는 방법이 더 간단합니다.
 
 ![이사 상자를 정리하는 신혼부부](/images/newlywed-lease-contract-checklist-2.jpg)
-*사진: cottonbro studio / Pexels*
 
 ## 이사 당일: 전입신고와 확정일자, 순서가 중요하다
 

@@ -10,7 +10,6 @@ sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1379&ccfN
 cover:
   image: "/images/maternity-leave-benefit-2026-1.jpg"
   alt: "사무실에서 일하는 임신부"
-  caption: "사진: juliane Monari / Pexels"
 ---
 
 출산전후휴가는 90일(다태아 120일, 미숙아 100일)이지만, 이 중 최초 60일(다태아 75일)만 유급입니다. 90일 내내 통상임금 100%가 들어온다고 알고 계신 분이 많은데 그렇지 않습니다. 2026년부터 고용보험이 지급하는 상한액이 월 220만원으로 올랐는데, 이 상한액이 유급 구간과 무급 구간에서 다르게 작용해서 "누가 얼마를 주는지"부터 헷갈립니다. 배우자가 쓰는 [배우자 출산휴가](/posts/spouse-paternity-leave-2026/)와 이름도 비슷해서 더 혼동되기 쉽습니다.
@@ -51,7 +50,6 @@ cover:
 90일 기준으로 상한액만 계산하면 총 660만원, 미숙아 100일은 7,333,330원, 다태아 120일은 880만원까지 정부 지원이 가능합니다. 다만 이 금액은 통상임금이 상한액 이상일 때의 최대치입니다. 실제 수령액은 본인 통상임금을 기준으로 계산됩니다.
 
 ![병원에서 아기를 안은 손](/images/maternity-leave-benefit-2026-2.jpg)
-*사진: Steven Morrissette / Pexels*
 
 ## 신청은 휴가가 시작된 뒤부터
 

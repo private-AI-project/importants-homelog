@@ -10,7 +10,6 @@ sourceUrl: "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19768
 cover:
   image: "/images/spouse-paternity-leave-2026-1.jpg"
   alt: "아기를 안고 있는 아빠"
-  caption: "사진: nappy / Pexels"
 ---
 
 2026년 9월 18일부터 배우자 출산휴가가 달라집니다. 지금까지는 아내가 출산한 뒤에만 쓸 수 있었는데, 앞으로는 출산예정일 50일 전부터 미리 쓸 수 있습니다. 여기에 배우자 유산·사산휴가 5일이 새로 생기고, 임신 중에도 육아휴직을 쓸 수 있는 길이 열립니다. 근로자라면 회사 규모와 상관없이 대상입니다.
@@ -42,7 +41,6 @@ cover:
 한 가지 헷갈리기 쉬운 지점이 있습니다. 사용 기한의 끝은 여전히 '출산 후 120일'이라는 것. 미리 쓸 수 있게 됐다고 해서 기한이 늘어난 건 아니고, 120일이 지나면 남은 일수는 소멸합니다.
 
 ![임신부 부부가 일정을 확인하는 모습](/images/spouse-paternity-leave-2026-2.jpg)
-*사진: Mylena Marins / Pexels*
 
 ## 배우자 유산·사산휴가, 처음 생기는 제도입니다
 

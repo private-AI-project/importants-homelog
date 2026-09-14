@@ -10,7 +10,6 @@ sourceUrl: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=684&ccfNo=3&cciN
 cover:
   image: "/images/car-seat-law-kc-certification-2026-1.jpg"
   alt: "카시트에 아이를 태우는 부모"
-  caption: "사진: Lee Salem / Pexels"
 ---
 
 6세 미만 아이를 차에 태울 때는 카시트, 정식 명칭으로 유아보호용 장구를 장착한 뒤 좌석안전띠를 매도록 하는 것이 도로교통법상 의무입니다. 앞좌석이든 뒷좌석이든 상관없이 적용됩니다. 지키지 않으면 운전자에게 과태료 6만원이 부과됩니다. 아이가 자라 만 6세를 넘겨도 13세가 될 때까지는 좌석안전띠 자체는 계속 매야 합니다. 카시트만 벗으면 끝이 아닙니다.
@@ -42,7 +41,6 @@ cover:
 해외 직구나 중고 거래로 구입한 제품일수록 이 절차를 건너뛰기 쉽습니다. 인증번호가 라벨에 있어도 검색 결과가 안 나오면 위조이거나 국내 인증을 받지 않은 제품이라는 뜻이니, 그 자리에서 걸러야 합니다.
 
 ![카트에 담긴 카시트를 살펴보는 부모](/images/car-seat-law-kc-certification-2026-2.jpg)
-*사진: Atlantic Ambience / Pexels*
 
 ## 유모차는 카시트와 절차가 다르다
 

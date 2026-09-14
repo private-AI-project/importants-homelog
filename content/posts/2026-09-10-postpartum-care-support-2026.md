@@ -10,7 +10,6 @@ sourceUrl: "https://www.mohw.go.kr/board.es?mid=a10409020000&bid=0026&list_no=14
 cover:
   image: "/images/postpartum-care-support-2026-1.jpg"
   alt: "신생아를 돌보는 산모"
-  caption: "사진: Jonathan Borba / Pexels"
 faq:
   - q: 소득이 높으면 아예 신청할 수 없나요?
     a: 신청 자체는 할 수 있습니다. 기준중위소득 150%를 넘는 가구도 '라형'으로 예외 지원을 받을 수 있고, 다만 정부지원금 비율이 낮아져 본인부담금이 더 커집니다.
@@ -45,7 +44,6 @@ faq:
 신청해서 받은 바우처도 유효기간이 있습니다. **출산일로부터 90일 안에 서비스 이용을 마쳐야** 합니다. 산후조리원을 오래 이용하다 이 기간을 넘기는 분이 생각보다 많습니다. 조리원 퇴소 일정을 먼저 잡은 다음 건강관리사 방문 일정을 맞추면 됩니다.
 
 ![아기를 안고 있는 부모](/images/postpartum-care-support-2026-2.jpg)
-*사진: RDNE Stock project / Pexels*
 
 ## 본인부담금은 얼마나 될까
 

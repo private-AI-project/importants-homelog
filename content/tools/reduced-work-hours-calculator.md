@@ -11,7 +11,6 @@ sourceUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI0000039
 cover:
   image: "/images/reduced-work-hours-calculator.jpg"
   alt: "노트북으로 일하는 부모와 옆에서 노는 아이"
-  caption: "사진: Ksenia Chernaya / Pexels"
 ---
 
 ## 계산 기준

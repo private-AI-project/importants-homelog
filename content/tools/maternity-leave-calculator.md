@@ -22,7 +22,6 @@ faq:
 cover:
   image: "/images/covers/maternity-leave-calculator.jpg"
   alt: "아기 옷과 배냇저고리가 놓인 모습"
-  caption: "사진: Amina Filkins / Pexels"
 ---
 
 ## 계산 기준

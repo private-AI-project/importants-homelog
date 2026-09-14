@@ -10,7 +10,6 @@ sourceUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI0000040
 cover:
   image: "/images/parental-leave-benefit-2026-1.jpg"
   alt: "집에서 아기를 안고 있는 아빠"
-  caption: "사진: nappy / Pexels"
 ---
 
 육아휴직을 앞두고 제일 궁금한 건 결국 "쉬는 동안 얼마가 들어오나"입니다. 2026년 기준으로 답부터 드리면, 첫 3개월은 통상임금의 100%를 월 최대 250만원까지, 4~6개월은 최대 200만원, 7개월째부터는 통상임금의 80%를 최대 160만원까지 받습니다.
@@ -40,7 +39,6 @@ cover:
 한부모 근로자는 첫 3개월 상한이 300만원으로 올라가고 4개월째부터 일반 기준을 적용받습니다.
 
 ![집에서 아기와 함께 노트북을 보는 부모](/images/parental-leave-benefit-2026-2.jpg)
-*사진: Kaboompics / Pexels*
 
 ## 기간은 1년, 조건이 맞으면 1년 6개월
 

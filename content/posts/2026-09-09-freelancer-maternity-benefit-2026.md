@@ -10,7 +10,6 @@ sourceUrl: "https://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20251201768
 cover:
   image: "/images/freelancer-maternity-benefit-2026-1.jpg"
   alt: "노트북으로 재택근무 중인 임신부"
-  caption: "사진: Matilda Wormwood / Pexels"
 faq:
   - q: 프리랜서인데 4대 보험에 가입한 적이 없어도 받을 수 있나요?
     a: 받을 수 있습니다. 고용보험 미적용자 출산급여는 애초에 고용보험 가입 이력이 없는 프리랜서, 특수형태근로종사자, 1인 자영업자를 대상으로 만든 제도입니다. 소득세 신고 내역 등으로 소득활동만 증빙하면 됩니다.
@@ -55,7 +54,6 @@ faq:
 배우자가 회사에 다닌다면 [배우자 출산휴가](/posts/spouse-paternity-leave-2026/)나 배우자 유산·사산휴가와는 완전히 별개 제도입니다. 남편의 급여는 남편 회사를 통해, 이 출산급여는 아내 본인의 소득활동을 근거로 각각 신청하고 받습니다.
 
 ![집에서 서류를 정리하는 프리랜서](/images/freelancer-maternity-benefit-2026-2.jpg)
-*사진: Tranmautritam / Pexels*
 
 ## 2026년부터 달라진 것
 

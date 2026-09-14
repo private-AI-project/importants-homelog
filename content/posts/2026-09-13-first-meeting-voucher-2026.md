@@ -10,7 +10,6 @@ sourceUrl: "https://www.gov.kr/portal/service/serviceInfo/135200005015"
 cover:
   image: "/images/first-meeting-voucher-2026-1.jpg"
   alt: "아기를 안고 있는 부모"
-  caption: "사진: RDNE Stock project / Pexels"
 faq:
   - q: 소득이 많아도 첫만남이용권을 받을 수 있나요?
     a: 받을 수 있습니다. 첫만남이용권은 소득이나 재산 기준이 없어서 출생신고를 해서 주민등록번호를 받은 아동이면 누구나 지급 대상입니다.
@@ -55,7 +54,6 @@ faq:
 기저귀나 분유, 유모차·카시트 같은 육아용품은 물론 산후조리원 비용이나 병원 진료비로도 쓸 수 있습니다. 출산 직후 목돈이 한꺼번에 나가는 시기라 체감이 큰 편입니다.
 
 ![아기용품을 살펴보는 부모](/images/first-meeting-voucher-2026-2.jpg)
-*사진: Gustavo Fring / Pexels*
 
 ## 2년, 정확히는 언제까지인가요
 
