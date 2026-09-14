@@ -10,7 +10,6 @@ sourceUrl: "https://www.safetykorea.kr/policy/targetsSafetyCheck3"
 cover:
   image: "/images/stroller-safety-kc-certification-1.jpg"
   alt: "공원에서 유모차를 미는 부모"
-  caption: "사진: Orange Ocean / Pexels"
 faq:
   - q: 유모차도 카시트처럼 인증번호를 조회할 수 있나요?
     a: 가능합니다. 유모차는 안전확인대상 어린이제품이라 제품안전정보센터(safetykorea.kr) 인증정보 검색에서 제품명이나 모델명으로 조회하면 인증기관, 인증번호, 인증상태까지 나옵니다. 표시만 보고 넘어가지 않아도 됩니다.
@@ -49,7 +48,6 @@ faq:
 검색이 안 되거나 인증상태가 만료로 나온다면 표시만 붙어 있고 실제로는 국내 인증을 받지 않았거나 오래돼 효력이 끊긴 제품일 수 있습니다. 이런 경우는 표시를 믿지 말고 다른 제품을 고르는 편이 낫습니다.
 
 ![거실에서 유모차를 살펴보는 부모](/images/stroller-safety-kc-certification-2.jpg)
-*사진: Yan Krukau / Pexels*
 
 ## 중고·해외직구 유모차, 특히 더 봐야 할 것
 

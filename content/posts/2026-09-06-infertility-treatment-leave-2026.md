@@ -10,7 +10,6 @@ sourceUrl: "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19768
 cover:
   image: "/images/infertility-treatment-leave-2026-1.jpg"
   alt: "병원 대기실에서 상담을 기다리는 부부"
-  caption: "사진: MART PRODUCTION / Pexels"
 ---
 
 2026년 11월 27일부터 난임치료휴가의 유급 기간이 늘어납니다. 연간 6일인 휴가 일수 자체는 그대로지만 그중 유급으로 인정되는 날이 2일에서 4일로 늘어나고 정부가 지원하는 급여 상한액도 16만8420원에서 33만6840원으로 오릅니다. 난임 시술을 계획 중이거나 받고 있는 근로자라면 알아둘 변화입니다.
@@ -45,7 +44,6 @@ cover:
 같은 날부터 난임치료휴가 사용을 이유로 근로자에게 불리한 처우를 하면 형사처벌을 받는 규정도 함께 시행됩니다. 시술 때문에 휴가를 썼다는 이유로 인사상 불이익을 주는 일을 막으려는 조치입니다.
 
 ![병원에서 손을 잡고 있는 부부](/images/infertility-treatment-leave-2026-2.jpg)
-*사진: RDNE Stock project / Pexels*
 
 ## 급여는 누가, 얼마나 받나
 

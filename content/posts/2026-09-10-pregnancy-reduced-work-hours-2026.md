@@ -10,7 +10,6 @@ sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1112&ccfN
 cover:
   image: "/images/pregnancy-reduced-work-hours-2026-1.jpg"
   alt: "사무실 책상에서 일하는 임신부"
-  caption: "사진: Pavel Danilyuk / Pexels"
 faq:
   - q: 임신 32주가 정확히 언제인지 어떻게 계산하나요?
     a: 산부인과에서 확인한 임신 주수를 기준으로 계산합니다. 출산예정일에서 거꾸로 8주를 빼면 대략 32주 시점이 나옵니다. 2025년 2월 23일 이전에는 36주(출산예정일 4주 전)부터였는데 개정으로 앞당겨졌습니다.
@@ -46,7 +45,6 @@ faq:
 가장 중요한 건 급여입니다. 근로기준법 제74조 8항은 근로시간 단축을 이유로 임금을 삭감하지 못하도록 못 박아 놓았습니다. 하루 6시간만 일해도 8시간 일할 때 받던 월급을 그대로 받는다는 뜻입니다. [출산전후휴가급여](/posts/maternity-leave-benefit-2026/)처럼 고용보험이 대신 돈을 채워주는 구조가 아니라, 회사가 원래 임금을 그대로 지급하는 방식이라 절차도 더 간단합니다.
 
 ![집에서 편안하게 쉬는 임신부](/images/pregnancy-reduced-work-hours-2026-2.jpg)
-*사진: Yan Krukau / Pexels*
 
 ## 신청은 어떻게, 언제까지
 

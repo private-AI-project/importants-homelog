@@ -10,7 +10,6 @@ sourceUrl: "https://www.childcare.go.kr/?menuno=172"
 cover:
   image: "/images/daycare-waitlist-application-1.jpg"
   alt: "어린이집에서 블록을 가지고 노는 아이들"
-  caption: "사진: BOOM 💥 Photography / Pexels"
 ---
 
 어린이집은 유치원과 달리 모집 기간이 따로 없습니다. 임신육아종합포털 아이사랑(childcare.go.kr)에서 연중 아무 때나 입소대기를 걸어두고, 자리가 나면 대기 순번대로 들어가는 방식입니다. 순번은 신청이 빠른 순이 아니라 가구 상황에 따른 점수순으로 정해지는데, 점수가 같으면 그때 신청 순서로 갈립니다.
@@ -44,7 +43,6 @@ cover:
 숫자로 감을 잡아보면 이렇습니다. 맞벌이에 자녀가 2명인 집이라면 맞벌이 200점에 2자녀 100점을 더해 300점. 여기에 셋째가 태어나면 항목이 '자녀 3명 이상'으로 바뀌면서 700점이 됩니다. 국공립 어린이집 대기가 긴 동네에서 다자녀 가구가 먼저 들어가는 것도 이 배점 구조 때문입니다.
 
 ![어린이집 등원길의 엄마와 아이](/images/daycare-waitlist-application-2.jpg)
-*사진: Mehmet Turgut Kirkgoz / Pexels*
 
 ## 같은 점수면 신청 순서로 갈립니다
 

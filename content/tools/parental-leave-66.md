@@ -24,7 +24,6 @@ faq:
 cover:
   image: "/images/covers/parental-leave-66.jpg"
   alt: "아기를 안고 있는 손"
-  caption: "사진: Kampus Production / Pexels"
 ---
 
 ## 왜 만들었나

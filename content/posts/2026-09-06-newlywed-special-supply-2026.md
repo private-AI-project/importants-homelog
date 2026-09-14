@@ -10,7 +10,6 @@ sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1112&ccfN
 cover:
   image: "/images/newlywed-special-supply-2026-1.jpg"
   alt: "신축 아파트 단지를 둘러보는 신혼부부"
-  caption: "사진: Alena Darmel / Pexels"
 ---
 
 소득이 있으면 신혼부부 특별공급은 아예 못 넣는다고 생각하는 경우가 많습니다. 실제로는 소득기준이 두 단계로 나뉘어 있어서 맞벌이라도 물량의 일부는 여전히 넣을 수 있습니다. [찾기쉬운 생활법령정보](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1112&ccfNo=2&cciNo=2&cnpClsNo=1)를 기준으로 자격, 소득기준, 순위를 정리했습니다.
@@ -40,7 +39,6 @@ cover:
 맞벌이 부부라도 소득이 100%를 넘으면 우선공급 몫에서는 밀려나지만, 140% 이하(맞벌이는 160% 이하)라면 일반공급 몫으로 여전히 신청할 수 있습니다. "소득이 있으면 특공은 끝"이 아니라 "어느 몫으로 들어가느냐"가 달라지는 구조입니다. 나머지 물량은 국민주택 특별공급 등 별도 기준으로 배정되니 공공분양과 민영주택 중 어느 쪽을 노리느냐에 따라 실제 적용 비율은 공고문으로 다시 확인해야 합니다.
 
 ![청약 서류를 검토하는 부부](/images/newlywed-special-supply-2026-2.jpg)
-*사진: Alena Darmel / Pexels*
 
 ## 소득을 넘겼다면 자산기준으로 한 번 더
 

@@ -10,7 +10,6 @@ sourceUrl: "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030601.jsp"
 cover:
   image: "/images/newlywed-didimdol-loan-2026-1.jpg"
   alt: "새 집 열쇠를 받는 신혼부부"
-  caption: "사진: Kindel Media / Pexels"
 ---
 
 전세가 아니라 집을 사기로 한 신혼부부라면 시중은행 주택담보대출보다 먼저 볼 상품이 있습니다. 주택도시기금의 신혼부부전용 주택구입자금 대출입니다. 흔히 "신혼부부 디딤돌대출"로 불리는 이 상품은 부부합산 연소득 8,500만원 이하, 순자산 5억 1,100만원 이하인 무주택 부부가 대상이고 최대 3억 2,000만원까지 빌릴 수 있습니다.
@@ -38,7 +37,6 @@ cover:
 금리는 소득 구간과 우대조건에 따라 달라집니다. 기관별 안내에 차이가 있어 정확한 구간은 이 글에서 단정하지 않겠습니다. 신청 전 [기금e든든](https://enhuf.molit.go.kr) 모의계산이나 수탁은행 상담으로 본인 조건에 맞는 금리를 직접 확인하는 편이 안전합니다.
 
 ![계약서에 서명하는 부부](/images/newlywed-didimdol-loan-2026-2.jpg)
-*사진: Vitaly Gariev / Pexels*
 
 ## 상환 기간과 신청 방법
 

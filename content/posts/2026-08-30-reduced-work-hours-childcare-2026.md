@@ -10,7 +10,6 @@ sourceUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI0000039
 cover:
   image: "/images/reduced-work-hours-childcare-2026-1.jpg"
   alt: "아이 손을 잡고 등교시키는 부모"
-  caption: "사진: August de Richelieu / Pexels"
 ---
 
 아이 하교는 오후 1시인데 퇴근은 6시. 이 다섯 시간을 어떻게 메울지가 초등 저학년 부모의 가장 큰 숙제입니다. 육아휴직을 또 쓰기는 부담스럽고 그렇다고 회사를 그만둘 수도 없을 때 쓰라고 만든 제도가 육아기 근로시간 단축입니다.
@@ -50,7 +49,6 @@ cover:
 최초 10시간분은 상한에 걸려 250만원 기준으로 계산해 250만원 × 10/40 = 62만 5천원. 나머지 10시간분은 300만원의 80%인 240만원이 상한 160만원을 넘으므로 160만원 기준으로 160만원 × 10/40 = 40만원. 합쳐서 매달 102만 5천원을 급여로 받습니다. 회사에서 받는 절반치 임금에 이 급여를 더하면 근무시간은 절반인데 수입은 원래의 80%를 넘게 유지되는 셈입니다. 다만 이건 통상임금 기준의 단순 계산이라 각종 수당이 있는 실제 월급과는 차이가 날 수 있습니다. [고용24 모의계산](https://www.work24.go.kr/cm/c/f/1100/selecSimulate13.do?currentPageNo=1&recordCountPerPage=10&upprSystClId=SC00000245&systClId=SC00000252&systId=SI00000397&systCnntId=CI00001582)에서 본인 조건으로 돌려 보는 게 정확합니다.
 
 ![재택 근무 중 아이와 함께 있는 부모](/images/reduced-work-hours-childcare-2026-2.jpg)
-*사진: KATRIN BOLOVTSOVA / Pexels*
 
 ## 회사에는 언제, 어떻게 말하나
 

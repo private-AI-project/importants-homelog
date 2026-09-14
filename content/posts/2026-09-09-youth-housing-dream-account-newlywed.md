@@ -10,7 +10,6 @@ sourceUrl: "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp"
 cover:
   image: "/images/youth-housing-dream-account-newlywed-1.jpg"
   alt: "집 마련 계획을 함께 세우는 신혼부부"
-  caption: "사진: Mikhail Nilov / Pexels"
 faq:
   - q: 이미 주택청약종합저축이 있으면 새로 가입해야 하나요?
     a: 새로 만들 필요 없습니다. 나이·무주택·소득 조건을 충족하면 기존 통장을 청년 주택드림 청약통장으로 전환할 수 있고, 청약 관련 가입 기간이나 납입 횟수는 그대로 이어집니다.
@@ -64,7 +63,6 @@ faq:
 가입은 됐는데 비과세는 못 받는 경우가 생깁니다. 소득이 5,000만원 이하라 가입 자격은 되지만 3,600만원을 넘으면 이자에 세금이 붙습니다. 결혼을 앞두고 맞벌이로 소득이 오른 시기라면 이 구간을 넘겼는지 먼저 확인해 두는 편이 좋습니다.
 
 ![은행 서류를 함께 검토하는 부부](/images/youth-housing-dream-account-newlywed-2.jpg)
-*사진: RDNE Stock project / Pexels*
 
 ## 기존 청약통장이 있다면 전환하면 된다
 

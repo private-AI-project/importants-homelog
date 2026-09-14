@@ -10,7 +10,6 @@ sourceUrl: "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp"
 cover:
   image: "/images/newborn-special-loan-2026-1.jpg"
   alt: "새 집에서 아기를 안고 있는 젊은 부부"
-  caption: "사진: Kindel Media / Pexels"
 ---
 
 아이가 태어나면 신청할 수 있는 대출이 있습니다. 신생아 특례대출. 시중 주택담보대출 금리가 4~5%대를 오가는 지금, 조건이 맞으면 연 1%대 금리로 집을 사거나 전세를 얻을 수 있는 제도입니다.
@@ -45,7 +44,6 @@ cover:
 정확한 내 금리는 소득 구간표를 일일이 짚기보다 [기금e든든](https://enhuf.molit.go.kr)에서 조건을 넣고 조회하는 쪽이 빠릅니다. 우대금리 중복 적용 여부에 따라 실제 숫자가 달라지기 때문입니다.
 
 ![집에서 서류를 살펴보는 부부](/images/newborn-special-loan-2026-2.jpg)
-*사진: Ron Lach / Pexels*
 
 ## 혼인신고 여부는 따지지 않습니다
 

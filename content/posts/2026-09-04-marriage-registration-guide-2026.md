@@ -10,7 +10,6 @@ sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=707&ccfNo
 cover:
   image: "/images/marriage-registration-guide-2026-1.jpg"
   alt: "서류에 서명하는 커플"
-  caption: "사진: Vitaly Gariev / Pexels"
 ---
 
 결혼식은 미뤄도 되지만 혼인신고는 하는 순간 법적 부부가 됩니다. 신혼부부 전세대출이나 특별공급처럼 "혼인신고일로부터 7년 이내"를 조건으로 거는 제도가 많아서 신고를 언제 하느냐가 이후 몇 년의 자격을 좌우하기도 합니다. 절차는 간단하지만 신고서를 쓰는 그 자리에서 결정해야 하는 항목이 하나 있어서 미리 알고 가는 것과 모르고 가는 것의 차이가 큽니다.
@@ -41,7 +40,6 @@ cover:
 2026년 9월 3일 국회에는 이 협의 시점을 자녀 출생신고 때까지 넓히는 민법 개정안이 발의됐습니다. 다만 이는 발의 단계로 국회 심의를 거쳐야 확정됩니다. 지금 혼인신고를 한다면 여전히 신고 시점에 결정하는 현행 기준이 적용됩니다.
 
 ![서류를 함께 검토하는 신혼부부](/images/marriage-registration-guide-2026-2.jpg)
-*사진: Mikhail Nilov / Pexels*
 
 ## 신고 후 챙길 것
 

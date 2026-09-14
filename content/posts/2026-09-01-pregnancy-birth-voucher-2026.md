@@ -10,7 +10,6 @@ sourceUrl: "https://www.mohw.go.kr/menu.es?mid=a10705020100"
 cover:
   image: "/images/pregnancy-birth-voucher-2026-1.jpg"
   alt: "임신한 배를 감싸 안은 여성"
-  caption: "사진: MART PRODUCTION / Pexels"
 ---
 
 임신 확인서를 받고 나면 가장 먼저 챙겨야 할 게 국민행복카드입니다. 임신·출산 진료비 지원 제도로, 단태아는 100만 원, 다태아는 태아 한 명당 100만 원씩 지급됩니다. 쌍둥이라면 200만원, 세쌍둥이는 300만원인 셈입니다. 분만취약지에 산다면 20만원이 더 붙습니다.
@@ -47,7 +46,6 @@ cover:
 이미 국민행복카드를 갖고 있다면 새로 발급받을 필요 없이 기존 카드에 포인트만 충전됩니다. 카드가 없다면 위 여섯 개 카드사 중 아무 곳에서나 신규 발급하면 됩니다.
 
 ![스마트폰과 노트북으로 신청 정보를 확인하는 임산부](/images/pregnancy-birth-voucher-2026-2.jpg)
-*사진: Yan Krukau / Pexels*
 
 ## 신청 기한이 아니라 사용 기한
 

@@ -10,7 +10,6 @@ sourceUrl: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%90%ED%86%B5%EC%95%BD
 cover:
   image: "/images/baby-outing-transport-checklist-1.jpg"
   alt: "유모차를 밀며 외출하는 부모"
-  caption: "사진: Mathias Reding / Pexels"
 faq:
   - q: 유모차를 이유로 버스 탑승을 거부당하면 어떻게 하나요?
     a: 교통약자의 이동편의 증진법 제3조는 영유아 동반자를 포함한 교통약자가 대중교통을 차별 없이 이용할 이동권을 규정합니다. 정류장 사정이나 배차 문제라면 다음 차편을 안내받되, 같은 상황이 반복되면 해당 운수업체나 지자체 교통과에 알리는 편이 낫습니다.
@@ -53,7 +52,6 @@ faq:
 지금은 과도기라 노선마다 저상버스 배차 비율이 다릅니다. 자주 다니는 노선이라면 버스 정보 앱에서 저상버스 도착 여부를 미리 확인해 두면 헛걸음이 줄어듭니다.
 
 ![대중교통을 기다리는 유모차 동반 가족](/images/baby-outing-transport-checklist-2.jpg)
-*사진: SHOX ART / Pexels*
 
 ## 기차로 움직인다면, 임산부 요금부터 확인
 
