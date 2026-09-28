@@ -1,9 +1,9 @@
 ---
-title: "어린이집 입소대기 신청 3월 입소 준비"
+title: "어린이집 입소대기 맞벌이 200점 점수순"
 date: 2026-08-29T09:00:00+09:00
 draft: false
 slug: "daycare-waitlist-application"
-description: "어린이집 입소는 점수순입니다. 맞벌이 200점 등 우선순위와 아이사랑 포털 신청 방법을 정리했습니다."
+description: "입소대기는 선착순이 아닌 점수순입니다. 맞벌이 200점, 2자녀 이상 100점이며 신규는 3곳까지 신청합니다."
 tags: ["어린이집", "입소대기", "아이사랑포털", "육아지원"]
 categories: ["육아지원"]
 sourceUrl: "https://www.childcare.go.kr/?menuno=172"
