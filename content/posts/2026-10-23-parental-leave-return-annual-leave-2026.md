@@ -52,7 +52,7 @@ faq:
 
 복직하면서 근로시간을 줄이는 분은 제6항 제4호가 적용됩니다. 육아기 근로시간 단축으로 줄어든 시간을 출근으로 보기 때문에 단축한 만큼 출근율이 깎이지 않습니다. 단축 기간의 급여와 신청 요건은 [육아기 근로시간 단축 글](/posts/reduced-work-hours-childcare-2026/)에 있고, 월급이 얼마가 되는지는 [육아기 근로시간 단축 급여 계산기](https://home.importants-studio.com/tools/reduced-work-hours-calculator/)에 시간을 넣어 보면 됩니다.
 
-휴직 중에 아르바이트를 했거나 건강보험료 유예 신청이 걸려 있다면 연차와 별개로 확인할 것이 있습니다. [육아휴직 중 알바 기준](/posts/parental-leave-part-time-job-2026/)과 [육아휴직 건강보험료 경감 신청](/posts/parental-leave-health-insurance-premium/)을 같이 보시면 복직 전에 정리할 서류가 한 번에 보입니다.
+휴직 중에 아르바이트를 했거나 건강보험료 유예를 신청했다면 연차와 별개로 확인할 것이 있습니다. [육아휴직 중 알바 기준](/posts/parental-leave-part-time-job-2026/)과 [육아휴직 건강보험료 경감 신청](/posts/parental-leave-health-insurance-premium/)을 같이 보시면 복직 전에 정리할 서류가 한 번에 보입니다.
 
 ## 확정된 내용과 확인할 곳
 
