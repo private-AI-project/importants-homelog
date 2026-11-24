@@ -6,6 +6,7 @@ slug: "infant-health-checkup-schedule-2026"
 description: "영유아 건강검진은 생후 14일부터 71개월까지 8차례 무료로 받을 수 있습니다. 차수별 검진 시기표, 구강검진이 끼어 있는 차수, 국민건강보험공단에서 조회하는 방법과 시기를 놓쳤을 때 비용까지 정리했습니다."
 tags: ["영유아건강검진", "국민건강보험공단", "발달정밀검사", "육아지원"]
 categories: ["육아지원"]
+app: loary
 sourceUrl: "https://www.nhis.or.kr/nhis/healthin/wbhaca04800m01.do"
 cover:
   image: "/images/infant-health-checkup-schedule-2026-1.jpg"

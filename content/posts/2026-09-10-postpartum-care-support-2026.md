@@ -6,6 +6,7 @@ slug: "postpartum-care-support-2026"
 description: "산모신생아 건강관리사(산후도우미) 지원사업은 중위소득 150% 이하 가구가 대상입니다. 2026년 소득기준, 출산예정일 40일 전부터인 신청기한, 단축·표준·연장형별 본인부담금을 정리했습니다."
 tags: ["산모신생아건강관리사", "산후도우미지원", "산모신생아건강관리지원사업"]
 categories: ["출산"]
+app: loary
 sourceUrl: "https://www.mohw.go.kr/board.es?mid=a10409020000&bid=0026&list_no=1488490&act=view"
 cover:
   image: "/images/postpartum-care-support-2026-1.jpg"

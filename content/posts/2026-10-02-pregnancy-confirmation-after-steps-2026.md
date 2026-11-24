@@ -6,6 +6,7 @@ slug: "pregnancy-confirmation-after-steps-2026"
 description: "임신확인서는 산부인과에서 받습니다. 발급받은 뒤 임신·출산 진료비 지원(임신 1회당 100만 원), 정부24 맘편한 임신 통합신청, 보건소 임산부 등록까지 어디에 어떤 순서로 내는지 2026년 기준으로 정리했습니다."
 tags: ["임신확인서", "임신출산진료비지원", "맘편한임신", "보건소임산부등록"]
 categories: ["출산"]
+app: loary
 sourceUrl: "https://www.gov.kr/portal/service/serviceInfo/SD0000007672"
 cover:
   image: "/images/pregnancy-confirmation-steps-2026-1.jpg"

@@ -6,6 +6,7 @@ slug: "high-risk-pregnancy-medical-support-2026"
 description: "고위험 임산부 의료비 지원사업은 19대 고위험 임신질환으로 입원치료를 받은 임산부에게 본인부담금과 비급여 진료비의 90%를 1인당 최대 300만원까지 지원합니다. 2024년부터 소득 기준도 없어졌습니다."
 tags: ["고위험임산부", "임신질환", "의료비지원", "e보건소"]
 categories: ["출산"]
+app: loary
 sourceUrl: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=735&ccfNo=2&cciNo=2&cnpClsNo=4"
 faq:
   - q: "소득이 많아도 신청할 수 있나요?"
